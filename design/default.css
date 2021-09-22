@@ -1,0 +1,83 @@
+@charset "utf-8";
+html {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    background-color: #ececec;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+header {
+    text-align: center;
+    background-color: #2c3e50;
+    padding: 10px;
+}
+
+header h1 {
+    color: #fde3a7;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#form {
+    text-align: center;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+}
+
+#info {
+    text-align: center;
+}
+
+#button {
+    text-align: center;
+    margin-top: 5px;
+}
+
+button {
+    background-color: #d64541;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#error {
+    color: white;
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+}
+
+#success {
+    color: white;
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+}
